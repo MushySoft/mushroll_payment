@@ -9,7 +9,7 @@ dependencies = [
     "asyncpg",
     "pydantic>=2.0",
     "faststream[rabbitmq]>=0.4.6",
-    "mushroll_shared @ file:../mushroll_shared"
+    "mushroll_shared @ git+https://github.com/MushySoft/mushroll_shared@main"
 ]
 
 [tool.ruff]
